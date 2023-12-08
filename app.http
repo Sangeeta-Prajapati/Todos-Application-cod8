@@ -8,7 +8,7 @@ GET http://localhost:3009/todos/?priority=HIGH
 GET http://localhost:3009/todos/?priority=HIGH&status=IN%20PROGRESS
 
 ###
-GET http://localhost:3009/todos/?search_q=Learn
+GET http://localhost:3009/todos/?search_q=CSS
 
 ###
 GET http://localhost:3009/todos/3
