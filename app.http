@@ -1,0 +1,28 @@
+GET http://localhost:3009/todos/?status=TO%20DO
+
+###
+
+GET http://localhost:3009/todos/?priority=HIGH
+
+###
+GET http://localhost:3009/todos/?priority=HIGH&status=IN%20PROGRESS
+
+###
+GET http://localhost:3009/todos/?search_q=Learn
+
+###
+GET http://localhost:3009/todos/3
+
+###
+POST http://localhost:3009/todos/
+Content-Type: application/json
+
+{
+  "id": 10,
+  "todo": "Finalize event theme",
+  "priority": "LOW",
+  "status": "TO DO"
+}
+
+###
+DELETE http://localhost:3009/todos/4/
